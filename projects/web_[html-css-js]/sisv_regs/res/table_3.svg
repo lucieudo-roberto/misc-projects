@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="table_3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.48462402"
+     inkscape:cx="439.51598"
+     inkscape:cy="309.5183"
+     inkscape:window-width="1366"
+     inkscape:window-height="710"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="px"
+     width="512px" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="fill:none"
+       id="g169"
+       transform="matrix(2.7475272,0,0,2.4906309,-1.3857816,5.6524549)">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 13,9 c -0.5523,0 -1,0.44772 -1,1 v 31 c 0,0.5523 0.4477,1 1,1 h 22 c 0.5523,0 1,-0.4477 1,-1 V 10 C 36,9.44772 35.5523,9 35,9 H 29.4167 V 7 H 35 c 1.6569,0 3,1.34314 3,3 v 31 c 0,1.6569 -1.3431,3 -3,3 H 13 c -1.6569,0 -3,-1.3431 -3,-3 V 10 c 0,-1.65685 1.3431,-3 3,-3 h 5.5833 v 2 z"
+         fill="#333333"
+         id="path142" />
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 17,7 c 0,-1.65685 1.3431,-3 3,-3 h 8 c 1.6569,0 3,1.34315 3,3 v 2 c 0,1.6569 -1.3431,3 -3,3 h -8 c -1.6569,0 -3,-1.3431 -3,-3 z m 3,-1 c -0.5523,0 -1,0.44772 -1,1 v 2 c 0,0.55228 0.4477,1 1,1 h 8 c 0.5523,0 1,-0.44772 1,-1 V 7 C 29,6.44772 28.5523,6 28,6 Z"
+         fill="#333333"
+         id="path144" />
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 15,21 c 0,-0.5523 0.4477,-1 1,-1 h 7 c 0.5523,0 1,0.4477 1,1 0,0.5523 -0.4477,1 -1,1 h -7 c -0.5523,0 -1,-0.4477 -1,-1 z"
+         fill="#333333"
+         id="path146" />
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 15,16 c 0,-0.5523 0.4477,-1 1,-1 h 15.5 c 0.5523,0 1,0.4477 1,1 0,0.5523 -0.4477,1 -1,1 H 16 c -0.5523,0 -1,-0.4477 -1,-1 z"
+         fill="#333333"
+         id="path148" />
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 17,29 v 2 h 2 v -2 z m -1,-2 c -0.5523,0 -1,0.4477 -1,1 v 4 c 0,0.5523 0.4477,1 1,1 h 4 c 0.5523,0 1,-0.4477 1,-1 v -4 c 0,-0.5523 -0.4477,-1 -1,-1 z"
+         fill="#333333"
+         id="path150" />
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 28,29 c 0.5529,0 1,-0.4471 1,-1 0,-0.5529 -0.4471,-1 -1,-1 -0.5529,0 -1,0.4471 -1,1 0,0.5529 0.4471,1 1,1 z m 0,2 c 1.6575,0 3,-1.3425 3,-3 0,-1.6575 -1.3425,-3 -3,-3 -1.6575,0 -3,1.3425 -3,3 0,1.6575 1.3425,3 3,3 z"
+         fill="#333333"
+         id="path152" />
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 24,35.2793 c 0.0127,-0.0148 0.0305,-0.0342 0.0549,-0.0581 0.1637,-0.1602 0.4804,-0.3724 0.9763,-0.583 C 26.0311,34.2133 27.2648,34 28,34 c 0.7352,0 1.9689,0.2133 2.9688,0.6382 0.4959,0.2106 0.8126,0.4228 0.9763,0.583 0.0244,0.0239 0.0422,0.0433 0.0549,0.0581 V 37 H 24 Z M 28,32 c -2.0025,0 -6,1.0659 -6,3.1818 V 39 H 34 V 35.1818 C 34,33.0659 30.0025,32 28,32 Z"
+         fill="#333333"
+         id="path154" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:36.6231px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;fill:#333333;fill-opacity:1;stroke-width:2.61593"
+       x="102.36292"
+       y="81.537483"
+       id="text459"
+       transform="scale(1.0503071,0.95210248)"><tspan
+         sodipodi:role="line"
+         id="tspan457"
+         style="font-size:36.6231px;fill:#333333;fill-opacity:1;stroke-width:2.61593"
+         x="102.36292"
+         y="81.537483">3</tspan></text>
+  </g>
+</svg>

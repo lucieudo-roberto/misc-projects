@@ -1,0 +1,152 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+:root {
+	--my-orange: #d35f5fff;/* #f34236; #FF6347; #f34236; */
+    --max-width: 720px;
+}
+
+body{font-size: 14px; background: #fafafa;}
+mark{color: var(--my-orange);background: none;font-weight: 700;}
+header{width: 100%;border-bottom: 1px solid #f7f7f7;}
+
+.main-menu {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	width: 40%;
+	margin: 10px 0 10px auto;
+    text-align: center;
+}
+
+.mm-link {
+     display: block;
+     width: 100%;
+	 text-decoration: none;
+	 color: #343A40;
+	 font: 700 1em/1 'Poppins';
+}
+
+.menu-ico {
+    display: block;
+    width: 1.2rem;
+    margin: 1px auto;
+}
+.mm-link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--my-orange);
+}
+
+.t-main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%; height: 95vh;
+}
+
+.presentation {
+	display: block;
+	width: min(var(--max-width),98%);
+    background: url('../res/path915.png') 90% 100% / 34% no-repeat;
+}
+
+.presentation-title,
+.skill-title {
+	width: 80%;
+	font: 700 2.1rem/1.5 'Poppins', sans-serif;
+	padding-left: 2%;
+	color: #4c4e61;
+}
+.skill-title {font-size: 1.4rem;}
+
+.presentation-status {
+ 	display: block;
+ 	width: 100%;
+ 	font: 300 0.5em/1.7 Lucida;
+ 	color: #343A40;
+ 	text-decoration: underline;
+ }
+
+ .aboute-me {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    width: min(var(--max-width),98%);
+    margin: 4% 0;
+}
+
+.aboute-me-social-box-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.aboute-me-social-box-links a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5% 0;
+}
+.social-icon {
+    display:inline;
+    width: 35%;
+    transition: .3s;
+    filter: grayscale(100%);
+}
+
+.social-icon:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.aboute-me-text,
+.aboute-me-status,
+.skill-descr {
+	display: block;
+	width: 100%;
+	text-align: justify;
+	font: normal 1.1em/1.3 "Outfit", sans-serif;
+	padding: 1% 2%;
+	color: #4c4e61;
+}
+
+.aboute-me-status  span {
+    color: var(--my-orange); margin: 0 1%;
+    font-weight: 400;
+}
+
+
+.skill {
+    display: block;
+    width: min(var(--max-width),98%);
+}
+.skill-grid2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 15px 0;
+    width: min(var(--max-width),98%);
+}
+
+.stack-labels, .stack-grafic-box {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.stack-item {
+
+  list-style: square;
+ background: red;
+ 
+    font: 400 1rem/1.1 'Poppins', sans-serif;
+    color: #4c4e61;
+}

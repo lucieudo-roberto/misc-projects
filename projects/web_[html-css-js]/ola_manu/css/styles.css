@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #000;
+}
+
+#app-main {
+	position: relative;
+	top: 0;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background: #fbf2ed url('../res/png/bg.jpg') no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#box-well {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#wellcome {
+	width: 80%;
+	font: 900 1.3rem/1.5 'Poppins', Helvetica;
+	color: steelblue;
+	background-color: rgba(255,255,255,0.9);
+	padding: 3%;
+	border-radius: 10px;
+	box-shadow: 1px 2px 3px darkgray;
+}
+
+#time-lcd{
+	width: 80%;
+	background-color: rgba(0,0,0,.7);
+	margin-top: 10%;
+	padding: 6% 3%;
+	border-radius: 10px;
+	box-shadow: 1px 2px 3px darkgray;
+	font: 500 1rem/1 monospace;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
+}
+
+#open-bnt {
+	display: block;
+	width: 80%;
+	margin-top: 30%;
+	margin-bottom: 5%;
+	border: 1px solid seagreen;
+	background-color: seagreen;
+	padding: 3%;
+	border-radius: 10px;
+	font: 500 1rem/1 'Poppins';
+	color: whitesmoke;
+	box-shadow: 1px 2px 3px darkgray;
+	z-index: 99;
+}
+
+#card-message {
+	display: none;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	width: 90%;
+	padding: 3%;
+	background-color: #fbf2ed;
+	border-radius: 10px;
+	box-shadow: 0px 1px 3px 1px rgba(0,0,0,.2);
+	z-index: 99;
+}
+
+	#card-text {
+		font: 700 1rem/1.7 'Poppins';
+		color: palevioletred;
+		margin: 2% 0 5% 0;
+	}
+
+
+	#next-bnt {
+		position: relative;
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 30%;
+		border: 1px solid seagreen;
+		background-color: seagreen;
+		padding: 3%;
+		border-radius: 10px;
+		font: 500 1rem/1 'Poppins';
+		color: whitesmoke;
+		box-shadow: 1px 2px 3px darkgray;
+		z-index: 99;
+	}
+
+.animation {
+	position: fixed;
+	bottom: 0;
+    display: block;
+	background: none;
+	width: 98%;
+	padding: 1%;
+	z-index: 1;
+	margin: 1%;
+}
+    .animation img {
+		display: block;
+		margin: auto auto;
+		width: 40%;
+    }
+    
+.particles {
+	position: absolute;
+	bottom: 0; left: 0;
+	width: 100%;
+	height: 98vh;
+	z-index: 80;
+}
+
+
+	.particles img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		margin: auto auto;
+	}

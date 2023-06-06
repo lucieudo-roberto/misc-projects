@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sisv-regs.app</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="theme-color" content="#147ca0"/>
+  <meta name="author" content="lucieudo.roberto@gmail.com">
+  <meta name="description" content="webapp para auxiliar os proficionais da saúde na área indígne, à gerar planilhas de cadastros"/>
+  <meta name="keywords" content="sisvan indigena,planila,cadastro de crianças,pernambuco,pdf,cadastro de familias"/>
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <!-- <meta http-equiv="refresh" content="2"> -->
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="popup"></div>
+    <div class="tab-box">
+        <button onclick="page_fc.tab_change(0)" class="tab-bnt tab1"></button>
+        <button onclick="page_fc.tab_change(1,ls_f1())" class="tab-bnt tab2"></button>
+        <button onclick="page_fc.tab_change(2)" class="tab-bnt tab3"></button>
+        <button onclick="page_fc.tab_change(3)" class="tab-bnt tab4"></button>
+    </div>
+    
+    <div class="windows window-1">
+        <fieldset class="w1-box1">
+            <label>aldeia<input class="inp-txt" type="text" maxlength="13"></label>
+            <label>nome<input class="inp-txt" type="text" maxlength="39"></label>
+            <div class="w1-box1-grid3">
+                <label>aniversário <input class="inp-txt" type="date"></label>
+                <label>peso  <input class="inp-txt" type="number"></label>
+                <label>altura<input class="inp-txt" type="number"></label>
+            </div>
+            <select class="inp-txt">
+                 <option value="1">1: magro</option>
+                 <option value="2">2: ideal</option>
+                 <option value="3">3: acima</option>
+            </select>
+            <div class="w1-box1-grid3">
+                <label>vitamina A<input class="inp-txt" type="date"></label>
+                <label>sulfato FE<input class="inp-txt" type="number"></label>
+                <label>AIDPI <input class="inp-txt" type="number"></label>
+            </div>
+            <div class="w1-box1-grid2">
+                <label> masculino <input class="inp-chk" type="radio" name="ag"></label>
+                <label> feminino  <input checked type="radio" name="ag"></label>
+            </div>
+        </fieldset>
+        <fieldset class="w1-box2">
+            <fieldset class="w1-box2-grid2">
+                <label><input class="inp-chk" type="checkbox">bolsa família</label>
+                <label><input class="inp-chk" type="checkbox">cesta básica </label>
+                <label><input class="inp-chk" type="checkbox">leite N.humano</label>
+                <label><input class="inp-chk" type="checkbox">outros</label>
+                <label><input class="inp-chk" type="checkbox">não recebe</label>
+                <label><input class="inp-chk" type="checkbox">sem informação</label>
+            </fieldset>
+            <fieldset class="w1-box2-grid2">
+                <label><input class="inp-chk" type="checkbox">exclusivo</label>
+                <label><input class="inp-chk" type="checkbox">predominante</label>
+                <label><input class="inp-chk" type="checkbox">complementar</label>
+                <label><input class="inp-chk" type="checkbox">desmamado</label>
+                <label><input class="inp-chk" type="checkbox">sem informação</label>
+            </fieldset>
+        </fieldset>
+        <fieldset class="w1-box3">
+              <div class="w1-box3-grid2">
+                  <button onclick="save_data()">salvar</button>
+                  <button onclick="clea_form()">limpar</button>
+              </div>
+        </fieldset>
+    </div>
+     
+    <div class="windows window-2">
+        <input type='url' class='w2-search-box' placeholder="pesquisar por nome">
+        <ul class='w2-data-list'>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+            <li class='w2-data-list-item'> <i>02/03/1997</i> <i>temp</i> <i>lucieudo roberto</i> <i>25A,1M</i></li>
+        </ul>
+    </div>
+
+
+
+    <div class="windows window-3">w3</div>
+    <div class="windows window-4">w4</div>
+    
+
+    <script src="src/page.js"></script>
+    <script src="src/data.js"></script>
+    <script src="src/main.js"></script>
+    <script>
+        window.onload = function() {
+            if ( visualViewport.width > 600 ) {
+                document.body.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+
+

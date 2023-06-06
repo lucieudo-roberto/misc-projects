@@ -1,0 +1,31 @@
+@keyframes anim_a {from {transform: scale(0.5);opacity: 0;}to {transform: scale(1);opacity: 1;}}
+@keyframes anim_b {from {transform: translateX(-100%);}to {transform: translateX(0);}}
+@keyframes anim_c {from {transform: perspective(400px) rotateY(0deg);}to {transform: perspective(400px) rotateY(360deg);}}
+@keyframes anim_d {from {opacity: 0;}to{opacity: 1;}}
+@keyframes anim_e {from {transform: rotate(0deg);}to{transform: rotate(360deg);}}
+@keyframes anim_f {from{transform: rotate(0deg);}to {transform: rotate(-360deg);}}
+@keyframes anim_g {from {transform: scale(0);}to{transform: scale(1);}}
+@keyframes anim_h {from {transform: perspective(400px) rotateY(0deg);}to {transform: perspective(400px) rotateY(360deg);}}
+@keyframes anim_i {from {opacity: 0;}to{opacity: 1;}}
+@keyframes anim_j {from {transform: scale(0.5);opacity: 0;}to {transform: scale(1);opacity: 1;}}
+@keyframes anim_k {from {transform: translateX(-100%);}to {transform: translateX(0);}}
+@keyframes anim_l {from {transform: rotate(0deg);}to{transform: rotate(20deg);}}
+
+
+
+.anim_0 { animation-name: anim_f;}
+.anim_1 { animation-name: anim_a;}
+.anim_2 { animation-name: anim_b;}
+.anim_3 { animation-name: anim_c;}
+.anim_4 { animation-name: anim_d;}
+.anim_5 { animation-name: anim_e;}
+.anim_6 { animation-name: anim_f;}
+.anim_7 { animation-name: anim_g;}
+.anim_8 { animation-name: anim_h;}
+.anim_9 { animation-name: anim_i;}
+.anim_10 { animation-name: anim_j;}
+.anim_11 { animation-name: anim_k;}
+
+
+
+.anim_FIN { animation-name: anim_l;}
